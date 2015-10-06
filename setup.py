@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(name='pypi-check',
-    description='list pypi packages',
-    version='0.1.0',
+    description='Check availability of PyPI package names',
+    version='0.1.1',
     author='Harsha Srinivas',
     author_email='95harsha95@gmail.com',
     packages=['pypi_check'],
@@ -11,7 +11,7 @@ setup(name='pypi-check',
     },
     url='https://github.com/harshasrinivas/pypi-check/',
     keywords=[ 'CLI', 'python'],
-    install_requires=['future', 'BeautifulSoup4', 'blessings'],
+    install_requires=['future', 'pypilist', 'blessings'],
     classifiers=[
         'Operating System :: POSIX',
         'Environment :: Console',

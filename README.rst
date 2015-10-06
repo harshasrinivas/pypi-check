@@ -1,7 +1,12 @@
 pypi-check
 ==========
 
-    Check for module name availability in PyPI.
+    Check for module name availability in PyPI using `pypilist`_
+
+.. figure:: https://github.com/harshasrinivas/pypi-check/blob/master/pypi_check.png
+   :alt: pypi-check
+
+   pypi-check
 
 Install
 -------
@@ -9,15 +14,6 @@ Install
 ::
 
     $ pip install pypi-check
-
-
-Usage
------
-
-::
-
-    $ pypi-check <module-name>
-
 
 Contribute
 ==========
@@ -30,4 +26,5 @@ License
 
 MIT © `Harsha Srinivas`_
 
+.. _pypilist: https://github.com/harshasrinivas/pypilist
 .. _Harsha Srinivas: https://harshasrinivas.me

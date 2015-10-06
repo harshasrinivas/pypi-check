@@ -1,5 +1,5 @@
 #pypi-check
->Check for module name availability in PyPI.
+>Check for module name availability in PyPI using [pypilist](https://github.com/harshasrinivas/pypilist)
 
 ![pypi-check](https://github.com/harshasrinivas/pypi-check/blob/master/pypi_check.png)
 
